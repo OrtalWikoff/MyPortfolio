@@ -1,62 +1,99 @@
-import React, { useState } from 'react';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import styled from "styled-components";
+import '../styles/index.css';
+import Footer from '../footer';
 
-function ContactForm() {
+const Contact = () => {
+  const form = useRef();
 
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-    const [errorMessage, setErrorMessage] = useState('');
-
-    const { name, email, message } = formState;
-
-    function handleChange(e) {
-        if (e.target.name === 'email') {      
-
-            } else {
-                if (!e.target.value.length) {
-                  setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                  setErrorMessage('');
-                } 
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_lhh62ih",
+        "template_ldzkvhs",
+        form.current,
+        "Q9azYaDWsvhRaLSsH"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
         }
+      );
+  };
+  return (
+    <StyledContactForm>
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+   <Footer/>
+       </StyledContactForm> 
 
-        if (!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-        }
-    }
+   
+  );
 
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
-
-return (
-    <section class="justify-content-center" id="contact-section">
-        <h1 data-testid='h1tag' className="contact">Contact Me</h1>
-        <hr></hr>
-        <form class="justify-content-center" id="contact-form">
-            <div>
-                <label htmlFor="name">name:</label>
-                <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-            </div>
-            <div >
-                <label htmlFor="email">email:</label>
-                <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
-            <div>
-                <label htmlFor="message">message:</label>
-                <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
-            </div> 
-            {errorMessage && (
-            <div>
-                <p className="error-text">{errorMessage}</p>
-            </div>
-            )}
-
-            <div>
-            <button data-testid='button' class="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
-            </div>
-        </form>
-    </section>
-    );
-}
+};
     
-export default ContactForm;
+export default Contact;
+
+// Styles
+const StyledContactForm = styled.div`
+  width: 400px;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+   input {
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 3px solid rgb(102, 178, 255);
+      &:focus {
+        border: 2px solid rgba(102, 178, 255);
+      }
+    }
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 3px solid rgb(102, 178, 255);
+      &:focus {
+        border: 2px solid rgb(102, 178, 255);
+      }
+    }
+    label {
+      margin-top: 1rem;
+    }
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      background: rgb(102, 178, 255);
+      color: white;
+      border: none;
+    }
+  }
+`;
