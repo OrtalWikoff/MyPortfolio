@@ -11,7 +11,7 @@
     {
     "id": 2,
     "name": "Password Generator",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Password%20Generator.png",
     "github": "https://github.com/OrtalWikoff/Password-Generator",
     "deploy": "https://ortalwikoff.github.io/Password-Generator/",
     "topics": "HTML, CSS, JavaScript"
@@ -20,126 +20,90 @@
     {
     "id": 3,
      "name": "Quiz Game",
-    "image": "",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Code%20Quiz.png",
     "github": "https://github.com/OrtalWikoff/Quiz-game",
     "deploy": "https://ortalwikoff.github.io/Quiz-game/",
     "topics": "HTML, CSS, JavaScript"
     },
     {
     "id": 4,
-    "name": "Quiz Game",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
-    "github": "https://github.com/OrtalWikoff/Quiz-game",
-    "deploy": "https://ortalwikoff.github.io/Quiz-game/",
-    "topics": "HTML, CSS, JavaScript"
-            
-    },
-    {
-    "id": 5,
     "name": "Note Taker",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Note%20Taker.png",
     "github": "https://github.com/OrtalWikoff/Note-Taker/tree/main",
     "deploy": " https://note-taker-ortal.herokuapp.com/",
     "topics": "HTML, CSS, JavaScript, Express.js"
                 
      }, 
      {
-     "id": 6,
+     "id": 5,
      "name": "Text Editor",
-     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Text%20Editor.png",
      "github": "https://github.com/OrtalWikoff/text-editor-",
      "deploy": "https://text-editor-ortal.herokuapp.com/",
     "topics": "HTML, CSS, JavaScript, Express.js, IndexedDB API"
                     
     },
     {
-    "id": 7,
+    "id": 6,
         "name": "Employee Tracker",
-        "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+        "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Employee%20Tracker.png",
         "github": "https://github.com/OrtalWikoff/Employee-Tracker",
        "topics": "Node.js, Inquirer, MySQL"
                        
     },
 {
    
-    "id": 8,
+    "id": 7,
     "name": "Readme Generator",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Readme%20Generator.png",
     "github": "https://github.com/OrtalWikoff/ReadmeGenerator",
    "topics": "Node.js, Inquirer, MySQL"                 
 }, 
 {
    
-    "id": 9,
+    "id": 8,
     "name": "Social Network API",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Social%20Network%20API.png",
     "github": "https://github.com/OrtalWikoff/ReadmeGenerator",
    "topics": " Express.js, MongoDB database, Mongoose ODM, Express.js, Mongoose packages, JavaScript "                 
 }, 
 {
    
-    "id": 10,
+    "id": 9,
     "name": "Team Profile Generator",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Team%20Profile%20Generator.png",
     "github": "https://github.com/OrtalWikoff/Team-Profile-Generator",
    "topics": " Node.js "                 
 }, 
 {
-    "id": 11,
+    "id": 10,
     "name": "Weather Dashboard",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
-    "github": "https://ortalwikoff.github.io/Weather-Dashboard/",
-    "deploy": "https://ortalwikoff.github.io/Weather-Dashboard/",
-   "topics": "HTML, CSS, JavaScript"            
-   },
-{
-   "id": 12,
-    "name": "Weather Dashboard",
-    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+    "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Weather%20Dashboard.png",
     "github": "https://ortalwikoff.github.io/Weather-Dashboard/",
     "deploy": "https://ortalwikoff.github.io/Weather-Dashboard/",
    "topics": "HTML, CSS, JavaScript"            
    },
    {
-    "id": 13,
+    "id": 11,
      "name": "E-commerce Back End",
-     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/E%20commerce%20back%20end.png",
      "github": "https://github.com/OrtalWikoff/E-commerce-Back-End",
     "topics": "Express.js API, MySQL database"            
     },
     {
-        "id": 14,
+        "id": 12,
          "name": "International Music Discovery App",
-         "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+         "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Music%20Discovery%20.png",
          "github": "https://github.com/sophiadelarosa/group-project",
          "deploy": "https://sophiadelarosa.github.io/group-project/",
         "topics": "HTML, CSS, JavaScript, API"            
         },
-
-        {
-            "id": 15,
-             "name": "International Music Discovery App",
-             "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
-             "github": "https://github.com/sophiadelarosa/group-project",
-             "deploy": "https://sophiadelarosa.github.io/group-project/",
-            "topics": "HTML, CSS, JavaScript, API"            
-            },
             {
-                "id": 16,
+                "id": 13,
                  "name": "Tech Blog",
                  "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
                  "github": "https://github.com/OrtalWikoff/Tech-Blog",
                  "deploy": "https://tech-blog-ortal.herokuapp.com/",
                 "topics": "HTML, CSS, JavaScript"            
-                },
-
-                {
-                    "id": 17,
-                     "name": "Tech Blog",
-                     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
-                     "github": "https://github.com/JasmineDaniels/AdoptMe",
-                     "deploy": "https://adoptme5.herokuapp.com/",
-                    "topics": "Javascript, Node.js, Express.js, Sequelize"     
-                    }
-
+                }
 ]
