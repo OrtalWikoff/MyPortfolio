@@ -101,9 +101,17 @@
             {
                 "id": 13,
                  "name": "Tech Blog",
-                 "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
+                 "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/Tech%20blog.png",
                  "github": "https://github.com/OrtalWikoff/Tech-Blog",
                  "deploy": "https://tech-blog-ortal.herokuapp.com/",
                 "topics": "HTML, CSS, JavaScript"            
-                }
+                }, 
+                {
+                    "id": 14,
+                     "name": "Adopt Me",
+                     "image": "",
+                     "github": "courses.bootcampspot.com/courses/1404",
+                     "deploy": "https://adoptme5.herokuapp.com/",
+                    "topics": "HTML, CSS, JavaScript, Node.js, Express.js, Sequelie, MySQL"            
+                    }
 ]
