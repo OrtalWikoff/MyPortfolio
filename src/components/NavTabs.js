@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-
+    <div style={{ background: 'rgb(112,128,144)', lineHeight : 3, padding: 25 }}>
     <ul className="nav nav-tabs justify-content-center">
       <li className="nav-item">
         <a
@@ -47,6 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

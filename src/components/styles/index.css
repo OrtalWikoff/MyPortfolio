@@ -22,7 +22,7 @@
       
       :root {
         /* from coolers: https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51 */
-        --orange-soda: lightblue;
+        --orange-soda: rgb(112,128,144);
         --platinum:#E8E9EB;
         --alabaster:#E0DFD5;
         --onyx:rgb(112,128,144)      ;
@@ -161,7 +161,9 @@
       
       #front-back h2 {
         color: var(--onyx);
+        margin: 1em;
       }
+      
       
       #front-back p {
         background-color: var(--alabaster);
@@ -170,7 +172,7 @@
       #resume p {
         background-color: var(--alabaster);
         color: var(--onyx);
-        margin-top: 5px;
+        margin-top: 0px;
       }
       
       #footer {
@@ -195,3 +197,19 @@
       #react-icon {
         background-color: var(--onyx);
       }
+
+      #contact-form{
+  padding: 3%;
+  margin: 5%;
+  /* color: #1a1f36;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif; */
+      }
+
+  #myExperience{
+    margin: 5%;
+    margin-top: 0px;
+  }
+  
+      
