@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
+  "homepage": "https://ortalwikoff.github.io/MyPortfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ortalwikoff.github.io/MyPortfolio",
 
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
