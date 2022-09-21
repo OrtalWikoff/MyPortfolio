@@ -9,29 +9,27 @@ function Resume() {
           <hr></hr>
           <div class="row justify-content-center" id="resume">
               <div class="mt-5 pl-5 pr-5">
-                <div id="myExperience">
-              I am an Educational Technology Specialist and full stack developer with experience with MERN. 
-              Ortal is Experienced in commercial website and software development. Ortal is an experienced leader with a demonstrated history of working in education.
+                <div class="myExperience"><h3>
+                ✔ Educational Technology Specialist and Full Stack Developer with experience in MERN.<br></br>
+                ✔ Experienced in commercial website and software development.<br></br>
+                ✔ Experienced leader with significant professional experience in education.<br></br></h3>
               </div>
-                  <p>
-                  Download my full <a href="#" class="link">resume</a>
-                  <br></br>
-                  </p>
+                  
               </div>
           </div>
   
           <div class="justify-content-center mt-5">
-              <div id="front-back">
-                  <h2>front end experience:</h2>
-                  <p>HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, IndexedDB</p>
+              <div class= "myExperience" >
+                  <h3 style={{fontWeight: 'bold', textDecorationLine: 'underline'}}>Front end experience:</h3> <h3> HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, IndexedDB</h3>
               </div>
       
-              <div id="front-back" class="mt-5">
-                  <h2>back end experience:</h2>
-                  <p>
-                  Node.js, Express.js, SQL, Sequelize, NoSQL (MongoDB, Mongoose), API's (third-party, RESTful, server-side), Templating (Handlebars)
-                  </p>
+              <div class="myExperience">
+              <h3 style={{fontWeight: 'bold', textDecorationLine: 'underline'}}>Back end experience:</h3><h3>Node.js, Express.js, SQL, Sequelize, NoSQL (MongoDB, Mongoose), API's (third-party, RESTful, server-side), Templating (Handlebars)</h3>
+    
               </div>
+              <p id = "link"> Download my full <a href="#" class="link">resume</a>
+                  <br></br>
+                  </p>
           </div>
           <Footer/>
   </section>

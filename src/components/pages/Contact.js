@@ -45,7 +45,7 @@ function ContactForm() {
     
 return (
     <section class="justify-content-center" id="contact-section">
-        <h1 data-testid='h1tag' className="contact">Contact me</h1>
+        <h1 data-testid='h1tag' className="contact">Contact Me</h1>
         <hr></hr>
         <form class="justify-content-center" 
                 id="contact-form">
@@ -75,7 +75,6 @@ return (
                 onBlur={handleChange} 
                 rows="7"
                 input type="submit"
-                value="Please send me a Message"
                 />
             </div> 
             {errorMessage && (

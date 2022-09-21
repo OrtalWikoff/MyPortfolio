@@ -1,7 +1,7 @@
 [
     {
     "id": 1,
-    "name": "work day schedular",
+    "name": "Work Day Scheduler",
     "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/workDayScheduler.png",
     "github": "https://github.com/OrtalWikoff/Work-Day-Scheduler",
     "deploy": "https://ortalwikoff.github.io/Work-Day-Scheduler/",

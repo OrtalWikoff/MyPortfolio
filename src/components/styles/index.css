@@ -208,9 +208,16 @@
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif; */
       }
 
-  #myExperience{
+  .myExperience{
     margin: 5%;
     margin-top: 0px;
+    color: var(--orange-soda);
+    font-weight: bold;
+
+  }
+  #link{
+    background-color:#E8E9EB;
+    ;
   }
   
       

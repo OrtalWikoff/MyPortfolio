@@ -7,7 +7,7 @@ import Footer from '../footer';
 export default function About() {
   return (
     <section className="title">
-    <h1 class="name">About me</h1>
+    <h1 class="name">About Me</h1>
     <hr></hr>
     
     <div className="row justify-content-center">
@@ -17,9 +17,8 @@ export default function About() {
         <br></br>
         <br></br>
       My name is Ortal Wikoff.<br></br>
-      I am a creative and hard worker web developer based in Atlanta, Georgia.
-      I have extensive leadership experience and I love to learn.
-      In my free time I like to travel and read.</p>
+      I am a creative and hard working web developer based in Atlanta, Georgia.<br></br>
+      I have extensive leadership and educational experience.</p>
     </div> 
 <Footer/>
   </div>
