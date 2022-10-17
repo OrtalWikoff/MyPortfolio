@@ -27,7 +27,7 @@ function Resume() {
               <h3 style={{fontWeight: 'bold', textDecorationLine: 'underline'}}>Back end experience:</h3><h3>Node.js, Express.js, SQL, Sequelize, NoSQL (MongoDB, Mongoose), API's (third-party, RESTful, server-side), Templating (Handlebars)</h3>
     
               </div>
-              <p id = "link"> Download my full <a href="#" class="link">resume</a>
+              <p id = "link"> Download my full <a href="https://docs.google.com/document/d/1ZGB58oyNjgVveZTfqjGbGWcjURkydNqRBKKPrdcdinA/edit?usp=sharing" class="link">resume</a>
                   <br></br>
                   </p>
           </div>

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import {validateEmail} from '../../utils/helpers';
 import '../styles/index.css';
+
 // import emailjs from '@emailjs/browser';
 
 
@@ -47,6 +48,10 @@ return (
     <section class="justify-content-center" id="contact-section">
         <h1 data-testid='h1tag' className="contact">Contact Me</h1>
         <hr></hr>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+        <h1>☎️</h1><h6> 949-413-4334</h6>
+        <a href="mailto:email@example.com"><h1>📧</h1></a>
+        </div>
         <form class="justify-content-center" 
                 id="contact-form">
                 {/* ref={form} */}
