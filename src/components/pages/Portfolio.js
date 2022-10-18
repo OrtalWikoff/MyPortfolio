@@ -1,6 +1,6 @@
 import React from 'react'; 
-import ProjectCards from '/Users/ortalwikoff/BootCamp/OrtalHomework/MyPortfolio/src/components/ProjectCards.js'
-import portfolio from '/Users/ortalwikoff/BootCamp/OrtalHomework/MyPortfolio/src/portfolio.json'
+import ProjectCards from '../ProjectCards.js'
+import portfolio from '../../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../footer';
 

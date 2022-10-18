@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '/Users/ortalwikoff/BootCamp/OrtalHomework/MyPortfolio/src/assets/Images/IMG_6636.png'
+import myImage from '../../assets/Images/Ortal.png'
 import '../styles/index.css';
 import Footer from '../footer';
  
