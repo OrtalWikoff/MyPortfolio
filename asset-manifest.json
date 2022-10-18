@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.0e2755d5.css",
+    "main.js": "/MyPortfolio/static/js/main.9a53187e.js",
+    "static/media/Ortal.png": "/MyPortfolio/static/media/Ortal.14e467e88101bdd7f9c9.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.0e2755d5.css.map": "/MyPortfolio/static/css/main.0e2755d5.css.map",
+    "main.9a53187e.js.map": "/MyPortfolio/static/js/main.9a53187e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2755d5.css",
+    "static/js/main.9a53187e.js"
+  ]
+}
