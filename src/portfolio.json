@@ -113,5 +113,14 @@
                      "github": "courses.bootcampspot.com/courses/1404",
                      "deploy": "https://adoptme5.herokuapp.com/",
                     "topics": "HTML, CSS, JavaScript, Node.js, Express.js, Sequelie, MySQL"            
-                    }
+                    },
+
+                {
+                "id": 15,
+                "name": "Parks with Pals",
+                "image": "https://github.com/OrtalWikoff/MyPortfolio/raw/main/src/assets/Images/ParkswithPals.png",
+               "github": "https://github.com/scrosa22/parks-with-pals",
+                "deploy": "https://parkswithpals.herokuapp.com/",
+                "topics": "Express.js, MongoDB database, React, Node"            
+                        }
 ]
